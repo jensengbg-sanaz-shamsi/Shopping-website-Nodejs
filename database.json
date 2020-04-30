@@ -38,17 +38,6 @@
     }
   ],
   "basket": [
-    {
-      "id": "2",
-      "name": "Nike Zoom Pegasus Turbo 2",
-      "price": 1949,
-      "imgUrl": "https://placeimg.com/640/480/tech"
-    },
-    {
-      "id": "3",
-      "name": "Nike RYZ 365",
-      "price": 999,
-      "imgUrl": "https://placeimg.com/640/480/tech"
-    }
+
   ]
 }
