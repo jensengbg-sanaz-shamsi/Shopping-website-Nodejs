@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.home {
+    width: 100%;
+    height: 160px;
+    background-color: rgb(241, 225, 225);
+}
+
+.image {
+    position: absolute;
+}
+
+#number {
+    position: relative;
+    left: 18px;
+    top: -20px;
+    color: rgb(80, 23, 23);
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+    color: black;
+    font-size: 60px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+li:hover {
+    background-color: rgb(252, 160, 198);
+}
+
+.content {
+    background-color:#f0efefef;
+}
+
+#shop-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 40px;
+}
+
+#shop-items div{
+    margin: 30px auto 0 auto;
+}
+
+#shop-items div img{
+    width: 200px;
+    height: 200px;
+}
+
+.info{
+    width: 215px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    justify-content: space-around;
+}
+
+.buyProduct{
+    padding: 5px 10px;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: darkgray;
+}
+
+/********** basket css *****************/
+a {
+    margin-bottom: 50px;
+    text-decoration: none;
+    font-family: fantasy;
+    color: black;
+}
+
+
+.container {
+      width: 85%;
+      height: 90%;
+      align-items: center;
+      margin: 30px auto ;
+      background-color: white;
+}
+
+.container header {
+      height: 150px;
+      text-align: center;
+      background-color: rgb(130, 146, 146);
+      font-family: fantasy;
+}
+
+.container h2 {
+    padding-top: 5%;
+    color: rgb(204, 186, 151);
+    font-size: 50px;
+    text-align: center;
+}
+
+.information {
+      height: 200px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      margin: 20px 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #cccccc;
+}
+
+#selected-item div img{
+    width: 150px;
+    height: 150px;
+}
+
+.deleteProduct {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+}
+
+#total-price {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    display: flex;
+    border-top: 2px solid rgb(92, 92, 92);
+    padding: 15px 0;
+    background-color: rgb(78, 83, 83);
+    color: white;
+}
+
+/***********chatroom css******/
+#chatroom {
+    width: 60%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 50px auto;
+}
+
+.back-button {
+    width: 130px;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    border: 1px solid rgb(160, 205, 241);
+    background-color: rgb(160, 205, 241);
+    color: white;
+    text-align: center;
+}
+
+.chat {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#chat-window {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #cccccc;
+    display: block;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.action {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+#send {
+    background-color: rgb(101, 101, 241);
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid rgb(101, 101, 241) ;  
+}
+
+@media screen and (max-width: 600px) {
+    #shop-items{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 40px;
+    }
+}
